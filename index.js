@@ -6,7 +6,7 @@ function sprite(text) {
 }
 
 function image(text, code) {
-  return '<img alt="' + code + '" class="_emoji" src="' + base + text + '.png">'
+  return '<img class="_emoji" src="' + base + text + '.png">'
 }
 
 module.exports.emojize = function emojize(s, use_image) {
